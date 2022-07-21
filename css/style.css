@@ -1,0 +1,121 @@
+.logo-part{
+   display: flex; 
+   justify-content: space-between;
+   margin-top: 20px;
+}
+.logo-part img{
+    margin-left: 30px;
+}
+.logo-part   button , .middle-part button {
+    width: 240px;
+    height: 50px;
+margin-right: 40px;
+font-size: 20px;
+border-radius: 5px;
+cursor: pointer;
+color: white;
+background-color:rgb(243,106,44);
+border: none;
+}
+.middle-part{
+    width: auto;
+    background-color: rgb(92, 46, 145);
+    margin-top: 10px;
+    text-align: center;
+    padding:  80px 0;
+}
+.middle-part h1{
+    font-size: 50px;
+color: white;
+margin-bottom: 20px;
+}
+.header-2{
+    text-align: center;
+    color: rgb(92, 46, 145) ;
+    font-size: 50px;
+    margin: 50px 0;
+}
+.main-div{
+   border: 2px solid lightcoral;
+   width: 370px;
+   height:420px;
+   margin:  80px auto;
+
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid red;
+}
+.container img{
+    height: 70px;
+    width: 60px;
+    border-radius: 60px;
+  margin-top: 15px;
+margin-left: 20px;
+margin-bottom: 20px;
+}
+.std-detail  {
+  
+    margin: auto;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.std-detail h1 {
+    color: blue;
+}
+.std-detail p {
+    margin-top: 5px;
+    width: 100px;
+    color:rgb(165, 165, 165) ;
+}
+.icon-part{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+.icon-part  a i {
+    font-size: 40px;
+    color: wheat;
+     margin-top: 5px;
+     margin-right: 20px; 
+}
+
+.main-div:hover .icon-part i {
+    color:blue ;
+}
+.main2{
+    display: flex;
+}
+
+.container2{
+    margin-left: 20px;
+}
+
+.container2 h2{
+    color: blue;
+    font-size:15px ;
+    margin-top:18px ;
+}
+.container2 p {
+    font-size:18px ;
+    line-height:20px ;
+    width: 140px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+.container3{
+    margin-left: 10px;
+}
+.container3 h2{
+    color: blue;
+    font-size:15px ;
+    margin-top:18px ;
+}
+.container3 p {
+    font-size:18px ;
+    line-height:20px ;
+    width: 180px;
+    margin-top: 10px;
+    font-weight: 300;
+}
