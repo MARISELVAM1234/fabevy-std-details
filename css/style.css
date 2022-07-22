@@ -1,128 +1,148 @@
-.logo-part{
-   display: flex; 
-   justify-content: space-between;
-   margin-top: 20px;
+.logo-part {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
 }
-.logo-part img{
+
+.logo-part img {
     margin-left: 30px;
 }
-.logo-part   button , .middle-part button {
+
+.logo-part button,
+.middle-part button {
     width: 240px;
     height: 50px;
-margin-right: 40px;
-font-size: 20px;
-border-radius: 5px;
-cursor: pointer;
-color: white;
-background-color:rgb(243,106,44);
-border: none;
+    margin-right: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(243, 106, 44);
+    border: none;
 }
-.middle-part{
+
+.middle-part {
     width: auto;
     background-color: rgb(92, 46, 145);
     margin-top: 10px;
     text-align: center;
-    padding:  80px 0;
+    padding: 80px 0;
 }
-.middle-part h1{
+
+.middle-part h1 {
     font-size: 50px;
-color: white;
-margin-bottom: 20px;
+    color: white;
+    margin-bottom: 20px;
 }
-.header-2{
+
+.header-2 {
     text-align: center;
-    color: rgb(92, 46, 145) ;
+    color: rgb(92, 46, 145);
     font-size: 50px;
     padding: 50px 0;
     background-color: rgb(246, 246, 246);
 }
-.main-div{
-   border: 2px ;
-   width: 400px;
-    height: 480px ;
-   margin:  0px auto 40px auto;
-   background-color: rgb(255, 255, 255);
-   box-shadow: 0 2px 5px rgb(221, 221, 221);
+
+.main-div {
+    border: 2px;
+    width: 400px;
+    height: 480px;
+    margin: 0px auto 40px auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 5px rgb(221, 221, 221);
 }
-.main-container{
-    display: flex; 
+
+.main-container {
+    display: flex;
     flex-wrap: wrap;
     background-color: rgb(246, 246, 246);
     justify-content: space-evenly;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: space-between;
-    border-bottom: 2px solid rgb(244, 244, 244) ;
+    border-bottom: 2px solid rgb(244, 244, 244);
 }
-.container img{
+
+.container img {
     height: 80px;
     width: 70px;
     border-radius: 60px;
-  margin-top: 20px;
-margin-left: 30px;
-margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 20px;
 }
-.std-detail  {
+
+.std-detail {
     margin: auto;
     margin-top: 20px;
     margin-left: 20px;
 }
+
 .std-detail h1 {
     color: rgb(92, 46, 145);
     font-size: 20px;
 }
+
 .std-detail p {
     margin-top: 5px;
     width: 100px;
-    color:rgb(165, 165, 165) ;
+    color: rgb(165, 165, 165);
 }
-.icon-part{
+
+.icon-part {
     display: flex;
     flex-direction: column;
     cursor: pointer;
 }
-.icon-part  a i {
+
+.icon-part a i {
     font-size: 40px;
     color: wheat;
-     margin-top: 5px;
-     margin-right: 20px; 
+    margin-top: 5px;
+    margin-right: 20px;
 }
 
 .main-div:hover .icon-part i {
-    color:blue ;
+    color: blue;
 }
-.main2{
+
+.main2 {
     display: flex;
 }
 
-.container2{
+.container2 {
     margin-left: 30px;
 }
 
-.container2 h2{
+.container2 h2 {
     color: blue;
-    font-size:15px ;
-    margin-top:18px ;
+    font-size: 15px;
+    margin-top: 18px;
 }
+
 .container2 p {
-    font-size:18px ;
-    line-height:20px ;
+    font-size: 18px;
+    line-height: 20px;
     width: 140px;
     margin-top: 10px;
     font-weight: 300;
 }
-.container3{
+
+.container3 {
     margin-left: 20px;
 }
-.container3 h2{
+
+.container3 h2 {
     color: blue;
-    font-size:15px ;
-    margin-top:18px ;
+    font-size: 15px;
+    margin-top: 18px;
 }
+
 .container3 p {
-    font-size:18px ;
-    line-height:20px ;
+    font-size: 18px;
+    line-height: 20px;
     width: 180px;
     margin-top: 10px;
     font-weight: 300;
