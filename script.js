@@ -1,36 +1,41 @@
 var logoDiv = document.createElement("header");
-logoDiv.setAttribute("class","logo-part")
+logoDiv.setAttribute("class", "logo-part")
 
-var  logoImgElement = document.createElement("img");
-logoImgElement.setAttribute("src" ,"/image/logo.png");
+var logoImgElement = document.createElement("img");
+logoImgElement.setAttribute("src", "/image/logo.png");
 
 var anchorLogoElement = document.createElement("a");
+anchorLogoElement.setAttribute("href", "https://forms.office.com/pages/responsepage.aspx?id=vdiF_LBDdEWKN2G2ej8buRkLbvNzVNJJjHOto5xycDVUMFpQRlZXUU5RNlpHVDJUWFZWOU9LTFlZOC4u");
+anchorLogoElement.setAttribute("target" , "blank");
 var btnElement = document.createElement("button");
-btnElement.textContent ="Hire Our Canditates" ;
+btnElement.textContent = "Hire Our Canditates";
 anchorLogoElement.append(btnElement);
-logoDiv.append(logoImgElement,anchorLogoElement);
+logoDiv.append(logoImgElement, anchorLogoElement);
 
 
 var middleDiv = document.createElement("div");
 middleDiv.setAttribute("class", "middle-part");
 var h1Ele = document.createElement("h1");
-h1Ele.textContent = "Source our " ;
+h1Ele.textContent = "Source our ";
 spanEle = document.createElement("span");
-spanEle.textContent ="Active IT Job Seekers" ;
+spanEle.textContent = "Active IT Job Seekers";
 h1Ele.append(spanEle);
 var aElement = document.createElement("a");
+aElement.setAttribute("href", "https://forms.office.com/pages/responsepage.aspx?id=vdiF_LBDdEWKN2G2ej8buRkLbvNzVNJJjHOto5xycDVUMFpQRlZXUU5RNlpHVDJUWFZWOU9LTFlZOC4u");
+aElement.setAttribute("target" , "blank");
+console.log(aElement);
 var btnElement2 = document.createElement("button");
-btnElement2.textContent ="Hire Our Canditates" ;
+btnElement2.textContent = "Hire Our Canditates";
 aElement.append(btnElement2);
 
-middleDiv.append(h1Ele ,aElement) ;
+middleDiv.append(h1Ele, aElement);
 
 
-var h2Ele =document.createElement("h2");
-h2Ele.setAttribute("class" , "header-2")
-h2Ele.textContent = "Active IT Jobseekers" ;
+var h2Ele = document.createElement("h2");
+h2Ele.setAttribute("class", "header-2")
+h2Ele.textContent = "Active IT Jobseekers";
 
-document.body.append(logoDiv,middleDiv , h2Ele);
+document.body.append(logoDiv, middleDiv, h2Ele);
 
 var studentDetails = [
     {
@@ -41,7 +46,7 @@ var studentDetails = [
         resume: "",
         primarySkils: "Html, Css, JavaScript, React JS.",
         secondarySkils: "Visual Studio Code, Git",
-        expectedSalary: "2.5L",
+        expectedSalary: "3.5L",
         edu1: "BE - Civil - 2020 - 8.48 CGPA.",
         edu2: "HSC - State Board - 2016 - 77.16%.",
         edu3: "SSLC - State Board - 2014 - 89%.",
@@ -55,10 +60,10 @@ var studentDetails = [
         resume: "",
         primarySkils: "Html, Css, JavaScript, React JS.",
         secondarySkils: "Visual Studio Code, Git",
-        expectedSalary: "2.5L",
-        edu1: "BE - Civil - 2020 - 6.6 CGPA.",
-        edu2: "HSC - State Board - 2016 - 70%.",
-        edu3: "SSLC - State Board - 2014 - 85%.",
+        expectedSalary: "3.5L",
+        edu1: "UG - BCA - 2021 - 6.6 CGPA.",
+        edu2: "HSC - State Board - 2018 - 70%.",
+        edu3: "SSLC - State Board - 2016 - 85%.",
         join: "Immediate"
     },
     {
@@ -69,7 +74,7 @@ var studentDetails = [
         resume: "",
         primarySkils: "Html, Css, JavaScript, React JS.",
         secondarySkils: "Visual Studio Code, Git",
-        expectedSalary: "2.5L",
+        expectedSalary: "3.5L",
         edu1: "BE - Civil - 2020 - 6.6 CGPA.",
         edu2: "HSC - State Board - 2016 - 70%.",
         edu3: "SSLC - State Board - 2014 - 85%.",
@@ -83,8 +88,8 @@ var studentDetails = [
         resume: "",
         primarySkils: "Html, Css, JavaScript, React JS.",
         secondarySkils: "Visual Studio Code, Git",
-        expectedSalary: "2.5L",
-        edu1: "BE - Civil - 2020 - 6.6 CGPA.",
+        expectedSalary: "3.5L",
+        edu1: "BE - CSE - 2020 - 6.6 CGPA.",
         edu2: "HSC - State Board - 2016 - 70%.",
         edu3: "SSLC - State Board - 2014 - 85%.",
         join: "Immediate"
@@ -97,10 +102,10 @@ var studentDetails = [
         resume: "",
         primarySkils: "Html, Css, JavaScript, React JS.",
         secondarySkils: "Visual Studio Code, Git",
-        expectedSalary: "2.5L",
-        edu1: "BE - Civil - 2020 - 6.6 CGPA.",
-        edu2: "HSC - State Board - 2016 - 70%.",
-        edu3: "SSLC - State Board - 2014 - 85%.",
+        expectedSalary: "3.5L",
+        edu1: "BE - ECE - 2021 - 6.6 CGPA.",
+        edu2: "HSC - State Board - 2017 - 70%.",
+        edu3: "SSLC - State Board - 2015 - 85%.",
         join: "Immediate"
     },
     {
@@ -111,19 +116,20 @@ var studentDetails = [
         resume: "",
         primarySkils: "Html, Css, JavaScript, React JS.",
         secondarySkils: "Visual Studio Code, Git",
-        expectedSalary: "2.5L",
-        edu1: "BE - Civil - 2020 - 6.6 CGPA.",
+        expectedSalary: "3.5L",
+        edu1: "BE - CSE - 2020 - 6.6 CGPA.",
         edu2: "HSC - State Board - 2016 - 70%.",
         edu3: "SSLC - State Board - 2014 - 85%.",
         join: "Immediate"
     }
 ]
-
+var secElement = document.createElement("section");
+secElement.setAttribute("class", "main-container");
+document.body.append(secElement);
 
 studentDetails.forEach(student)
 function student(students) {
     // for (var i = 0 ; i < studentDetails.length ; i++){
-    var secElement = document.createElement("section");
     var maindivEle = document.createElement("div");
     var divElement = document.createElement("div");
     var divElement2 = document.createElement("div");
@@ -210,7 +216,7 @@ function student(students) {
     //left side
     var containerElement = document.createElement("div");
     containerElement.setAttribute("class", "container2");
-    containerElement.append(primaryDivElement, secondaryDivElement,expecDivElement);
+    containerElement.append(primaryDivElement, secondaryDivElement, expecDivElement);
 
     //education-part
     var eduOnecElement = document.createElement("h2");
@@ -222,32 +228,33 @@ function student(students) {
     var eduElement3 = document.createElement("p");
     eduElement3.textContent = students.edu3;
     var eduDivElement = document.createElement("div");
-    eduDivElement.append(eduOnecElement, eduElement1,eduElement2,eduElement3)
-    
-//joining
-var joiningElement = document.createElement("h2");
-joiningElement.textContent = "Availability to join";
-var valueElement1 = document.createElement("p");
-valueElement1.textContent = students.join;
-var joinDivElement = document.createElement("div");
-joinDivElement.append(joiningElement,valueElement1)
+    eduDivElement.append(eduOnecElement, eduElement1, eduElement2, eduElement3)
+
+    //joining
+    var joiningElement = document.createElement("h2");
+    joiningElement.textContent = "Availability to join";
+    var valueElement1 = document.createElement("p");
+    valueElement1.textContent = students.join;
+    var joinDivElement = document.createElement("div");
+    joinDivElement.append(joiningElement, valueElement1)
 
 
     //right-side
     var containerElement2 = document.createElement("div");
     containerElement2.setAttribute("class", "container3");
-containerElement2.append(eduDivElement,joinDivElement);
+    containerElement2.append(eduDivElement, joinDivElement);
 
 
 
 
     var containerMain = document.createElement("div");
     containerMain.setAttribute("class", "main2")
-    containerMain.append(containerElement,containerElement2);
+    containerMain.append(containerElement, containerElement2);
 
 
     maindivEle.append(divElement, containerMain);
 
-document.body.append(secElement)
-    console.log(secElement)
+    // document.body.append(secElement)
 }
+
+console.log(secElement)
