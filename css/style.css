@@ -33,42 +33,44 @@ margin-bottom: 20px;
     text-align: center;
     color: rgb(92, 46, 145) ;
     font-size: 50px;
-    margin: 50px 0;
+    padding: 50px 0;
+    background-color: rgb(246, 246, 246);
 }
 .main-div{
-   border: 2px solid rgb(240, 128, 128);
-   width: 370px;
-   height:420px;
+   border: 2px ;
+   width: 400px;
+    height: 480px ;
    margin:  0px auto 40px auto;
-   /* margin: ; */
-
+   background-color: rgb(255, 255, 255);
+   box-shadow: 0 2px 5px rgb(221, 221, 221);
 }
 .main-container{
     display: flex; 
     flex-wrap: wrap;
-    /* justify-content: space-between; */
+    background-color: rgb(246, 246, 246);
+    justify-content: space-evenly;
 }
 .container{
     display: flex;
     justify-content: space-between;
-    border-bottom: 2px solid red;
+    border-bottom: 2px solid rgb(244, 244, 244) ;
 }
 .container img{
-    height: 70px;
-    width: 60px;
+    height: 80px;
+    width: 70px;
     border-radius: 60px;
-  margin-top: 15px;
-margin-left: 20px;
+  margin-top: 20px;
+margin-left: 30px;
 margin-bottom: 20px;
 }
 .std-detail  {
-  
     margin: auto;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-left: 20px;
 }
 .std-detail h1 {
-    color: blue;
+    color: rgb(92, 46, 145);
+    font-size: 20px;
 }
 .std-detail p {
     margin-top: 5px;
@@ -95,7 +97,7 @@ margin-bottom: 20px;
 }
 
 .container2{
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 .container2 h2{
@@ -111,7 +113,7 @@ margin-bottom: 20px;
     font-weight: 300;
 }
 .container3{
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .container3 h2{
     color: blue;
