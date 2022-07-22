@@ -36,15 +36,21 @@ margin-bottom: 20px;
     margin: 50px 0;
 }
 .main-div{
-   border: 2px solid lightcoral;
+   border: 2px solid rgb(240, 128, 128);
    width: 370px;
    height:420px;
-   margin:  80px auto;
+   margin:  0px auto 40px auto;
+   /* margin: ; */
 
+}
+.main-container{
+    display: flex; 
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
 }
 .container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     border-bottom: 2px solid red;
 }
 .container img{
